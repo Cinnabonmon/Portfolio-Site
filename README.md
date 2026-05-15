@@ -1,28 +1,28 @@
-# Challenge: WanderNote — Convert Divs to Semantic HTML
+# Challenge — Bootstrap Portfolio Site (From Scratch)
 
-## Objective
-You are given a **div-heavy** 2010s-style page. Convert it into a clean, accessible, **semantic HTML** layout
-while **preserving the visual design** (CSS already targets ids/classes so your semantic swap won't break).
+<!--toc:start-->
 
-## Tasks
-1. Open `Unsolved/index.html` and **replace structural `<div>` elements** with semantic tags:
-   - `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<aside>`, `<footer>`
-2. Keep class/id names the same so existing CSS continues to work.
-3. Add meaningful `alt` text to images and accessible link text.
-4. Ensure headings follow a logical order (e.g., one `<h1>`, then `<h2>` for sections).
+- [Challenge — Bootstrap Portfolio Site (From Scratch)](#challenge-bootstrap-portfolio-site-from-scratch)
+  - [Requirements](#requirements)
+  - [Suggested Steps](#suggested-steps)
+  - [Submission](#submission)
+  <!--toc:end-->
 
-## Acceptance Criteria
-- Visual layout remains intact.
-- Semantic elements used appropriately.
-- All images have meaningful `alt` attributes.
-- Headings are logical and accessible.
+**Goal:** Build a responsive personal portfolio using Flexbox and other CSS you know and deploy it on GitHub Pages.
 
-> **Note:** Plain selectors only this week. No pseudo-classes required.
+## Requirements
 
+- Sections: About, Projects, Contact
+- Navbar with anchors to sections
+- Mobile-first responsive behavior
 
----
+## Suggested Steps
 
-### 🌐 Note on Images
-This project uses external images from Unsplash and Picsum.
-You'll need an active internet connection for them to appear.
-If you prefer to work offline, replace the image URLs with local files in an `images/` folder.
+1. Wireframe your layout (on paper or Figma).
+2. Create semantic HTML sections for your page.
+3. Style with your own CSS for theme polish.
+4. Commit → push → deploy with GitHub Pages.
+
+## Submission
+
+- Repo URL + live GitHub Pages URL.
