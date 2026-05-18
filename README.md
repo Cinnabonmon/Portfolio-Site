@@ -1,7 +1,5 @@
 # Challenge — Bootstrap Portfolio Site (From Scratch)
 
-<!--toc:start-->
-
 - [Challenge — Bootstrap Portfolio Site (From Scratch)](#challenge-bootstrap-portfolio-site-from-scratch)
   - [Requirements](#requirements)
   - [Suggested Steps](#suggested-steps)
