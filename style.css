@@ -6,6 +6,7 @@ body {
     rgba(219, 219, 202, 1) 100%
   );
   height: 100vh;
+  font-family: "Raleway", sans-serif;
 }
 
 .navBar {
@@ -16,6 +17,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .navList {
   display: flex;
   justify-content: center;
@@ -23,7 +25,8 @@ body {
   gap: 2rem;
   background-color: #fffdf2;
   height: 2rem;
-  width: calc(max-content + 10%);
+  padding-inline: 1rem;
+  width: fit-content;
   border-radius: 1000px;
 }
 
@@ -32,4 +35,50 @@ body {
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
+}
+
+.navList li {
+  transition: transform 0.2s ease-in-out;
+}
+
+.navList li:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.about img {
+  display: block;
+  width: 300px;
+  height: 300px;
+  border-radius: 1000px;
+  background-color: #000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-direction: column;
+  margin-top: 1rem;
+  width: (90%, 1200px);
+  margin-inline: auto;
+}
+
+.aboutText {
+  width: min(90%, 600px);
+}
+
+@media (width > 720px) {
+  .about {
+    flex-direction: row;
+  }
+  .about img {
+    width: 400px;
+    height: 400px;
+  }
+  .aboutText {
+    width: 40%;
+  }
 }
