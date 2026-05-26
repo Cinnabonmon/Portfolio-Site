@@ -53,6 +53,7 @@ body {
   border-radius: 1000px;
   background-color: #000;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  object-fit: cover;
 }
 
 .about {
@@ -70,6 +71,66 @@ body {
   width: min(90%, 600px);
 }
 
+.projects {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.projectsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: (90%, 1200px);
+}
+
+svg {
+  width: 320px;
+  height: 200px;
+  transition: transform 0.2s ease-in-out;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+svg:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease-in-out;
+}
+.projectCard h3 {
+  transition: transform 0.3s ease;
+}
+.projectCard:has(svg:hover) h3 {
+  transform: translateY(-10px);
+  transition: transform 0.3s ease;
+}
+.contactTitle {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-flow: column;
+}
+.contactCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: #fffdf2;
+  padding: 1rem;
+  border-radius: 10px;
+  width: fit-content;
+  margin-inline: auto;
+}
+.contactCard img {
+  width: 24px;
+  height: 24px;
+}
+
 @media (width > 720px) {
   .about {
     flex-direction: row;
@@ -80,5 +141,13 @@ body {
   }
   .aboutText {
     width: 40%;
+  }
+  .projectsContainer {
+    flex-flow: row wrap;
+  }
+  .contact {
+    flex-flow: row;
+    height: 120px;
+    padding-inline: 2rem;
   }
 }
