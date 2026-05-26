@@ -1,26 +1,7 @@
-# Challenge — Bootstrap Portfolio Site (From Scratch)
+# Portfolio Site
 
-- [Challenge — Bootstrap Portfolio Site (From Scratch)](#challenge-bootstrap-portfolio-site-from-scratch)
-  - [Requirements](#requirements)
-  - [Suggested Steps](#suggested-steps)
-  - [Submission](#submission)
-  <!--toc:end-->
+This is a portfolio site made for the CodeCademy Full Stack Bootcamp. Its made using just HTML and CSS
 
-**Goal:** Build a responsive personal portfolio using Flexbox and other CSS you know and deploy it on GitHub Pages.
+## Website URL
 
-## Requirements
-
-- Sections: About, Projects, Contact
-- Navbar with anchors to sections
-- Mobile-first responsive behavior
-
-## Suggested Steps
-
-1. Wireframe your layout (on paper or Figma).
-2. Create semantic HTML sections for your page.
-3. Style with your own CSS for theme polish.
-4. Commit → push → deploy with GitHub Pages.
-
-## Submission
-
-- Repo URL + live GitHub Pages URL.
+<https://cinnabonmon.github.io/Portfolio-Site/>
